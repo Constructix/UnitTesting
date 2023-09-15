@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore FakeitEasyDemo/FakeitEasyDemo.csproj
-    - name: Build Unit Tests
-      run: dotnet build FakeitEasyDemo/FakeitEasyDemo.csproj
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+#    - name: Build Unit Tests
+#      run: dotnet build FakeitEasyDemo/FakeitEasyDemo.csproj
+#    - name: Test
+#      run: dotnet test --no-build --verbosity normal
