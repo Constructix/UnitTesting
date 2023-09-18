@@ -23,8 +23,8 @@ jobs:
        uses: actions/setup-dotnet@v3
        with:
          dotnet-version: 8.0.x
-     - name: Restore dependencies
-       run: dotnet restore --force --source ./FakeItEasyDemo/FakeItEasyDemo.csproj
+     - name: Build
+       run: dotnet build ./FakeItEasyDemo/FakeItEasyDemo.csproj
 #    - name: Build Unit Tests
 #      run: dotnet build FakeitEasyDemo/FakeitEasyDemo.csproj
 #    - name: Test
